@@ -1,0 +1,75 @@
+.cntr{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height:60vh; */
+    /* background-color: white; */
+}
+
+.frm{
+    width:100%;
+    padding: 20px;
+    border-radius: 17px;
+    background-color: whitesmoke;
+    /* background-color: white !important; */
+    box-shadow: 5px 5px 10px gray;
+    /* color:rgb(79, 79, 194); */
+}
+
+/* .frm div,label,a{
+    background-color: white;
+} */
+/* *{
+    background-color: white;
+} */
+.h2{
+    color:rgb(52, 122, 191);
+}
+
+.register{
+    text-align: right;
+}
+
+.btn{
+    width:50%;
+    margin-left:25%;
+}
+
+.frm div input{
+    background-color: whitesmoke;
+}
+
+.div{
+    background-color: rgb(94, 88, 88);
+}
+
+input:focus{
+    border: none !important;
+    /* background-color: red !important; */
+}
+
+.modalII{
+    width:0%;
+    margin-left: 10px !important;
+}
+
+.frontpage{
+    background-image: url('../../../public/front.jpg');
+    background-repeat: no-repeat;
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+}
+
+.front2:hover{
+    cursor:pointer;
+    background-color: rgba(182, 182, 182, 0.63);
+    color:black;
+    box-shadow: 2px 2px 2px gray;
+}
+
+a{
+    text-decoration: none;
+}
